@@ -294,7 +294,7 @@ export function getWebviewContent(
         <ul>
           <li> <span> /pattern </span> – search for pattern</li>
           <li> <span> ?pattern </span> – search backward for pattern</li>
-          <li> <span> \vpattern </span> – 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)</li>
+          <li> <span> \\vpattern </span> – 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)</li>
           <li> <span> n </span> – repeat search in same direction</li>
           <li> <span> N </span> – repeat search in opposite direction</li>
           <li> <span> :%s/old/new/g </span> – replace all old with new throught file</li>
